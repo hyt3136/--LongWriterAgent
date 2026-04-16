@@ -1,0 +1,12 @@
+[project]
+name = "wenben-engine"
+version = "0.1.0"
+description = "Chapter 1 scaffold for LangGraph industrial project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
